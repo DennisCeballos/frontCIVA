@@ -1,0 +1,53 @@
+/* Container: center content */
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding-left: 50%;
+  }
+  
+  /* Header title */
+  .title {
+    color: #6a0dad; /* Purple accent */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Card containing bus details */
+  .details-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Styling for each detail row */
+  .details-card p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Back button */
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .back-button:hover {
+    background-color: #5a0cad;
+  }
+  

@@ -1,0 +1,65 @@
+/* Center the main container */
+.container {
+    max-width: 80%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    color: #6a0dad; /* Purple */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  .bus-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Table header */
+  .bus-table thead {
+    background-color: #6a0dad;
+    color: rgb(0, 0, 0);
+  }
+  
+  .bus-table th,
+  .bus-table td {
+    padding: 12px;
+    border: 1px solid #000000;
+    text-align: left;
+  }
+  
+  /* Alternate row colors */
+  .bus-table tbody tr:nth-child(even) {
+    background-color: #0d0000;
+  }
+  
+  /* Button styling */
+  .view-button {
+    background-color: #6a0dad;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #520a8f;
+  }
+  
+  /* Loading and error styles */
+  .loading,
+  .error {
+    font-size: 1.2rem;
+    color: #6a0dad;
+  }
+  
